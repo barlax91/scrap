@@ -1,14 +1,41 @@
+
 # Web Scrapping Stack overflow
 
-L'objectif de ce projet est de récupérer des informations du site stack overflow and utilisant Python (Beautifulsoup) et d'exploiter ses données pour mettre à disposition des statistiques.
-Plus précisément nous nous intéresserons aux questions posées sur le sites et aux engagements liés à chaque question.
+L'objectif de ce projet est de récupérer des informations du site stack overflow and utilisant Python (Beautifulsoup) et d'exploiter ses données pour mettre à disposition des statistiques. Plus précisément nous nous intéresserons aux questions posées sur le sites et aux engagements liés à chaque question.
 
-# Application
+## Environment Variables
 
 Pour réaliser ce projet nous utiliserons cette URL : https://stackoverflow.com/questions
 
-Au niveau des technologies, on utilisera Python avec les librairies pandas, beautifulsoup, seaborn, ...
-ainsi qu'un Jupyter notebook et une base de données SQLite.
+Au niveau des technologies, on utilisera Python avec les librairies pandas, beautifulsoup, seaborn, ... ainsi qu'un Jupyter notebook.
+
+## Documentation
+
+Pour réaliser ce projet nous utiliserons cette URL : https://stackoverflow.com/questions
+
+**Technologies:** Python(pandas,beautifulsoup,seaborn,...), jupyter notebook, SQLite
+
+Vous pouvez consulter le `webscraping.ipynb` pour suivre pas à pas ce que fais le programme.
+
+Il est intéressant de modifier la valeur de la range dans la cellule 3 pour augmenter ou diminuer le volume de données.
 
 
-Le nombre de données traitées dépendra de la "range" que l'on choisira puisqu'elle va définir le nombre de pages qui vont être scrapées en sachant qu'il y a une cinquantaine de résultats par pages.
+
+
+## Installation
+
+Assurez vous d'avoir installé python 3.9, ainsi que les différentes librairies et lancer dans un terminal:
+
+```bash
+  python3 scrappy.py 
+```
+    
+## Authors
+
+- [@barlax91](https://www.github.com/barlax91)
+
+
+## Screenshots
+
+![Alt text](g1.png?raw=true "Nombre de vues par questions")
+
