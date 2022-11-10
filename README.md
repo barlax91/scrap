@@ -3,11 +3,6 @@
 
 L'objectif de ce projet est de récupérer des informations du site stack overflow and utilisant Python (Beautifulsoup) et d'exploiter ses données pour mettre à disposition des statistiques. Plus précisément nous nous intéresserons aux questions posées sur le sites et aux engagements liés à chaque question.
 
-## Environnement 
-
-Pour réaliser ce projet nous utiliserons cette URL : https://stackoverflow.com/questions
-
-Au niveau des technologies, on utilisera Python avec les librairies pandas, beautifulsoup, seaborn, ... ainsi qu'un Jupyter notebook.
 
 ## Documentation
 
@@ -30,7 +25,7 @@ Assurez vous d'avoir installé python 3.9, ainsi que les différentes librairies
   python3 scrappy.py 
 ```
     
-## Authors
+## Auteur
 
 - [@barlax91](https://www.github.com/barlax91)
 
